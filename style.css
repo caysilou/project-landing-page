@@ -90,7 +90,18 @@ button {
 
 .quote {
     background-color: #c7eae4;
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
+.quote > .quote-text {
+    font-style: italic;
+    color: rgb(68, 68, 68);
+}
+.quote > .quote-author {
+    font-weight: bold;
+    text-align: right;
+}
+
 
 footer {
     background-color: #FCBCB8;
