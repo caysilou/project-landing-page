@@ -17,6 +17,10 @@ body > * {
     padding: 16px 64px;
 }
 
+img {
+    object-fit: cover;
+}
+
 header, footer {
     background-color: #ffd972;
     display: flex;
@@ -55,6 +59,10 @@ footer {
     padding-top: 64px;
     padding-bottom: 64px;
 }
+.hero > img {
+    width: 100%;
+    border: 2px solid #A4508B;
+}
 .hero-content > p {
     font-size: 12px;
 }
@@ -72,6 +80,8 @@ button {
 }
 .infomatic > h2, .info {
     display: flex;
+    font-size: 32px;
+    padding-bottom: 64px;
     flex-wrap: wrap;
     justify-content: center;
     gap: 32px;
@@ -85,6 +95,8 @@ button {
 .card > img {
     border-radius: 16px;
     border: 2px solid #A4508B;
+    width: 150px;
+    height: 150px;
 }
 
 
