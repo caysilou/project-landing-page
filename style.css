@@ -6,8 +6,43 @@ Color Scheme
 #EFA7A7 - Pastel Pink (darker)
 #FFD972 - Orange Yellow Crayola
 */
+body {
+    margin: 0 0;
+    padding: 0 0;
+    font-family: "Roboto", sans-serif;
+}
+
+/* pad all elements equally */
+body > * {
+    padding: 16px 64px;
+}
+
 header, footer {
     background-color: #ffd972;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    justify-content: center;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    flex: 1;
+    justify-content: flex-end;
+}
+.nav a {
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+    flex: 1;
 }
 
 .hero, .call-internal {
