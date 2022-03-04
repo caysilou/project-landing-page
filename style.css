@@ -102,6 +102,20 @@ button {
     text-align: right;
 }
 
+.call-internal {
+    padding: 32px;
+    border-radius: 8px;
+}
+.call-internal > button {
+    width: 160px;
+    flex: 0 1 auto;
+}
+.call-content {
+    flex: 1;
+}
+.call-content > * {
+    margin: 0;
+}
 
 footer {
     background-color: #FCBCB8;
