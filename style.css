@@ -1,7 +1,7 @@
 /*
 Color Scheme
 #C7EAE4 - Light Cyan
-#A7E8BD - Celadon
+#442B48 - Purple
 #FCBCB8 - Spanish Pink (light)
 #EFA7A7 - Pastel Pink (darker)
 #FFD972 - Orange Yellow Crayola
@@ -47,6 +47,19 @@ footer {
 
 .hero, .call-internal {
     background-color: #EFA7A7;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.hero-content > p {
+    font-size: 12px;
+}
+button {
+    background-color: #A4508B;
+    color: white;
+    border: 0;
+    padding: 8px 16px;
+    border-radius: 8px;
 }
 
 .infomatic, .call-to-action {
