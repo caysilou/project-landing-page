@@ -10,6 +10,7 @@ body {
     margin: 0 0;
     padding: 0 0;
     font-family: "Roboto", sans-serif;
+    background-color: rgb(226, 226, 226);
 }
 
 /* pad all elements equally */
@@ -75,7 +76,7 @@ button {
 }
 
 .infomatic, .call-to-action {
-    background-color: white;
+    background-color: rgb(226, 226, 226);
     margin: 64px 0px;
 }
 .infomatic > h2, .info {
